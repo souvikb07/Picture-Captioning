@@ -7,7 +7,15 @@ In this project, I will implement an end-to-end Deep Learning model for Image Ca
 # Work in Progress
 
 
-## Download the Dataset
+## 1. Download the Dataset
+```
 $ pip install -r requirements.txt
 $ chmod +x download.sh
 $ ./download.sh
+```
+
+## 2. Preprocessing
+```
+$ python vocab.py   
+$ python resize.py
+```
